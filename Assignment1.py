@@ -42,7 +42,7 @@ def count_multiples_of_3(limit):
         num += 1
     return result.strip() 
 
-# Function 6: Sum of Even Numbers in a Range
+# Function 6: Do-While Loop Simulation – Ask for Positive Number
 # This function should calculate and return the sum of even numbers within a given range
 def sum_of_even_numbers(start, end):
     return sum(num for num in range(start, end + 1) if num % 2 == 0)
